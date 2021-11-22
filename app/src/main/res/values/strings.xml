@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Package Tracking</string>
+
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="grupo">GRUPOS</string>
+    <string name="salir">SALIR</string>
+    <string name="nombre">Nombre</string>
+    <string name="celular">Celular</string>
+    <string name="crear">CREAR GRUPO</string>
+    <string name="seleccionar">SELECCIONAR GRUPO</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+
+</resources>
