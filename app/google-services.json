@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "292992816604",
+    "project_id": "desarrollomovil-2021",
+    "storage_bucket": "desarrollomovil-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292992816604:android:b234c5b973bd4ddbbeab19",
+        "android_client_info": {
+          "package_name": "com.misiontic2022.packagetracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292992816604-3uf73r7churoeie8m1g0hfdfcidkqu69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB13yHFUbBXJwF97GZTO8kvWt-JMZrVrGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292992816604-3uf73r7churoeie8m1g0hfdfcidkqu69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,61 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7EFF9800"
+    android:background="#f0e8dd"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="598dp"
-        android:background="#23FFC107"
-        android:orientation="vertical"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="243dp"
+        android:background="#f0e8dd "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="361dp"
-            android:background="#03FFEB3B"
-            android:orientation="vertical">
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="100dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:onClick="irCrearGrupo"
+        android:text="@string/crear"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="427dp"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/logo" />
-        </LinearLayout>
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="20dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:text="@string/salir"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGrupos" />
 
-        <Button
-            android:id="@+id/btnRegistrar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20px"
-            android:background="@color/teal_200"
-            android:text="CREAR GRUPO"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnGrupos"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="24dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:onClick="irMapa"
+        android:text="@string/seleccionar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrar" />
 
-        <Button
-            android:id="@+id/btnGrupos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20px"
-            android:background="@color/teal_200"
-            android:text="SELECCIONAR GRUPO"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnSalir"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20px"
-            android:background="@color/teal_200"
-            android:text="@string/salir"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

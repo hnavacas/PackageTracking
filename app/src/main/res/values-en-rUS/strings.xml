@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Package Tracking</string>
-    <string name="action_sign_in_short">Sing In</string>
     <string name="registrarse">SIGN IN</string>
     <string name="grupo">GROUPS</string>
-    <string name="salir">EXIT</string>
     <string name="nombre">Name</string>
     <string name="celular">Phone number</string>
-    <string name="crear">CREATE GROUP</string>
-    <string name="seleccionar">CHOOSE GROUP</string>
+    <string name="crear">Create Group</string>
+    <string name="seleccionar">Choose Group</string>
     <string name="cancelar">Cancel</string>
-    <string name="aceptar">Enter</string>
+    <string name="aceptar">Save</string>
+    <string name="salir">Exit</string>
 </resources>

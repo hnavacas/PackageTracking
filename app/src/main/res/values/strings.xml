@@ -3,12 +3,24 @@
 
     <string name="registrarse">REGISTRARSE</string>
     <string name="grupo">GRUPOS</string>
-    <string name="salir">SALIR</string>
+    <string name="salir">Salir</string>
     <string name="nombre">Nombre</string>
     <string name="celular">Celular</string>
-    <string name="crear">CREAR GRUPO</string>
-    <string name="seleccionar">SELECCIONAR GRUPO</string>
+    <string name="crear">Crear Grupo</string>
+    <string name="seleccionar">Seleccionar Grupo</string>
+    <string name="aceptar">Guardar</string>
     <string name="cancelar">Cancelar</string>
-    <string name="aceptar">Aceptar</string>
+    <string name="title_activity_mapa">MapaActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_ver_map">VerMapActivity</string>
 
 </resources>
